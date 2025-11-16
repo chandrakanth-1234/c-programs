@@ -33,4 +33,18 @@ int main() {
     fgets(str,sizeof(str),stdin);   
     printf("The string is %s\n", str);
 }
+```
+##Write a program in C to find the length of a string without using library functions.
+```c
+#include <stdio.h>
 
+int main() {
+    char str[100];
+    int length = 0;
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    for (i = 0; str[i]; i++) {
+            length++;
+    }
+    printf("Length of the string = %d\n", length);
+}
