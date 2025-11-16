@@ -78,4 +78,4 @@ int main() {
         printf("%c\n", str[i]);
     }
 }
-```c
+```
