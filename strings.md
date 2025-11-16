@@ -48,3 +48,34 @@ int main() {
     }
     printf("Length of the string = %d\n", length);
 }
+```
+## Write a program in C to separate individual characters from a string.
+```c
+#include <stdio.h>
+int main() {
+    char str[100];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    printf("\nIndividual characters:\n");
+    for (i = 0; str[i]; i++) {
+        printf("%c\n", str[i]);
+    }
+}
+```
+## Write a program in C to print individual characters of a string in reverse order.
+```c
+#include <stdio.h>
+int main() {
+    char str[100];
+    int i, length = 0;
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    for (i = 0; str[i]; i++) {
+            length++;
+    }
+    printf("\nCharacters in reverse order:\n");
+    for(i=length-1;i>=0;i--){
+        printf("%c\n", str[i]);
+    }
+}
+```c
