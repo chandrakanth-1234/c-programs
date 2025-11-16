@@ -22,4 +22,16 @@ int main() {
 }
 
 ```
-- the strings
+
+## Write a c program to input a string and print.
+
+```c
+#include<stdio.h>
+int main() {
+    char str[20];
+
+    printf("Enter a string: ");
+    fgets(str,sizeof(str),stdin);   
+    printf("The string is %s\n", str);
+}
+
