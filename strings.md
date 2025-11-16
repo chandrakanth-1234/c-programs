@@ -34,7 +34,7 @@ int main() {
     printf("The string is %s\n", str);
 }
 ```
-##Write a program in C to find the length of a string without using library functions.
+## Write a program in C to find the length of a string without using library functions.
 ```c
 #include <stdio.h>
 
