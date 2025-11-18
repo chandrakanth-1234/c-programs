@@ -1,4 +1,4 @@
-## Write a c program to reverse the string and count the no of characters in the string
+## 1)Write a c program to reverse the string and count the no of characters in the string
 
  ```c
 #include <stdio.h>
@@ -23,7 +23,7 @@ int main() {
 
 ```
 
-## Write a c program to input a string and print.
+## 2)Write a c program to input a string and print.
 
 ```c
 #include<stdio.h>
@@ -34,7 +34,7 @@ int main() {
     printf("The string is %s\n", str);
 }
 ```
-## Write a program in C to find the length of a string without using library functions.
+## 3)Write a program in C to find the length of a string without using library functions.
 ```c
 #include <stdio.h>
 
@@ -49,7 +49,7 @@ int main() {
     printf("Length of the string = %d\n", length);
 }
 ```
-## Write a program in C to separate individual characters from a string.
+## 4)Write a program in C to separate individual characters from a string.
 ```c
 #include <stdio.h>
 int main() {
@@ -62,7 +62,7 @@ int main() {
     }
 }
 ```
-## Write a program in C to print individual characters of a string in reverse order.
+## 5)Write a program in C to print individual characters of a string in reverse order.
 ```c
 #include <stdio.h>
 int main() {
