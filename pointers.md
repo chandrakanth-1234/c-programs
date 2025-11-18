@@ -188,3 +188,77 @@ int main() {
     printf("Second element using p2: (*p2)[1] = %d\n", (*p2)[1]);
 }
 ```
+## 12)Write a program to dereference a pointer to an array.
+```c
+#include <stdio.h>
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50};
+    int (*ptr)[5];
+    ptr = &arr;
+    printf("Accessing array elements using pointer to array:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Element %d = %d\n", i, (*ptr)[i]);
+    }
+}
+```
+## 13)Write a program to print the values and address of elements of 2-d array.
+```c
+#include <stdio.h>
+int main() {
+    int arr[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+    printf("Values and addresses of 2-D array elements:\n\n");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("arr[%d][%d] = %d\t", i, j, arr[i][j]);
+            printf("Address = %p\n", (void*)&arr[i][j]);
+        }
+        printf("\n");
+    }
+}
+```
+## 14)Program to print elements of a 2-D array by subscripting a pointer to an array variable.
+```c
+#include <stdio.h>
+int main() {
+    int arr[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+    int (*p)[3];
+    p = arr;
+    printf("Printing 2-D array elements using pointer to an array:\n\n");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++){
+            printf("%d ", p[i][j]);
+        }
+        printf("\n");
+    }
+}
+```
+## 15)Program to print elements of a 3-D array using pointer notation.
+```c
+#include <stdio.h>
+int main() {
+    int arr[2][2][3] = {
+        {
+            {1, 2, 3},
+            {4, 5, 6}
+        },
+        {
+            {7, 8, 9},
+            {10, 11, 12}
+        }
+    };
+    int *p = &arr[0][0][0];   
+    int total = 2 * 2 * 3;    
+    printf("Elements of the 3-D array using pointer notation:\n\n");
+    for (int i = 0; i < total; i++) {
+        printf("%d ", *(p + i)); 
+    }
+}
+```
