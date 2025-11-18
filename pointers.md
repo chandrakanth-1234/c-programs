@@ -1,4 +1,4 @@
-## Write a Program to print the address of variables using the address operator.
+## 1)Write a Program to print the address of variables using the address operator.
 ```c
 #include <stdio.h>
 int main() {
@@ -16,7 +16,7 @@ int main() {
     printf("Character=%c Address of c = %p\n",c,&c);
 }
 ```
-## Write a program to print size of pointer variables.
+## 2)Write a program to print size of pointer variables.
 ```c
 #include <stdio.h>
 int main() {
@@ -30,7 +30,7 @@ int main() {
     printf("Size of double pointer  = %lu bytes\n", sizeof(p4));
 }
 ```
-## Write a program to print size of pointer variables and size of values Dereferenced by them.
+## 3)Write a program to print size of pointer variables and size of values Dereferenced by them.
 ```c
 #include <stdio.h>
 int main() {
@@ -51,7 +51,7 @@ int main() {
     printf("Size of value *p4 (double)   = %lu bytes\n", sizeof(*p4));
 }
 ```
-## Write a program to illustrate the dereferencing of pointers.
+## 4)Write a program to illustrate the dereferencing of pointers.
 ```c
 #include <stdio.h>
 int main() {
@@ -68,7 +68,7 @@ int main() {
     printf("Dereferenced value from p = %d\n", *p);
 }
 ```
-## Write a C program to illustrate pointer arithmetic
+## 5)Write a C program to illustrate pointer arithmetic
 ```c
 #include <stdio.h>
 int main() {
@@ -91,7 +91,7 @@ int main() {
     printf("Value at new p (*p)       = %d\n", *p);
 }
 ```
-## Write a program to declare an integer variable a, assign it a value, then declare a pointer
+## 6)Write a program to declare an integer variable a, assign it a value, then declare a pointer
 variable, assign it the address of a, and finally print the value of a using the pointer variable.
 ```c
 #include <stdio.h>
@@ -102,7 +102,7 @@ int main() {
     printf("Value of a (using pointer) = %d\n", *p);
 }
 ```
-## Write a program to print postfix/prefix increment/decrement in a pointer variable of base
+## 7)Write a program to print postfix/prefix increment/decrement in a pointer variable of base
 type int*.
 ```c
 #include <stdio.h>
@@ -116,7 +116,7 @@ int main() {
     printf("--p  : address = %p, value = %d\n", --p, *p);
 }
 ```
-## Write a Program to print the value and address of elements of an array using pointers
+## 8)Write a Program to print the value and address of elements of an array using pointers
 notation.
 ```c
 #include <stdio.h>
@@ -132,7 +132,7 @@ int main() {
     }
 }
 ```
-## Write a program to print the value of array elements using pointers and subscript notation.
+## 9)Write a program to print the value of array elements using pointers and subscript notation.
 ```c
 #include <stdio.h>
 int main() {
@@ -149,7 +149,7 @@ int main() {
     }
 }
 ```
-## Write a program to print the value and address of array elements by subscripting a pointer
+## 10)Write a program to print the value and address of array elements by subscripting a pointer
 variable.
 ```c
 #include <stdio.h>
@@ -164,7 +164,7 @@ int main() {
     }
 }
 ```
-## Program to understand the difference between a to an integer and a pointer to an array of
+## 11)Program to understand the difference between a to an integer and a pointer to an array of
 integers.
 ```c
 #include <stdio.h>
