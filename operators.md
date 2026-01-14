@@ -1,4 +1,4 @@
-## Question 1
+ Question 1
 **Which is not a bitwise operator?**
 
 1. `&`
