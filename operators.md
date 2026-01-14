@@ -166,9 +166,38 @@ Explanation:
 
 2->Binary=0010
 
-10^2=>1010^0010=>1010
+10^2=>1010^0010=>1000
 
-Decimal value of 1010 is 8
+Decimal value of 1000 is 8
 
 ---
 
+### 7) Predict the output of the following program.
+```c
+#include <stdio.h>
+int main()
+{
+ int x=10;
+ x &= ~2;
+printf("x= %d",x);
+ return 0;
+}
+```
+ 1. x= 10
+ 2. x= 8
+ 3. x= 12
+ 4. x= 0
+
+Output:x=8
+
+Explanation:
+
+x=10->Binary=1010
+
+~2=> ~(0010)=>1101
+
+x&=~2=>x&~2=>1010&1101=>1000
+
+Decimal value of 1000 is 8
+
+---
