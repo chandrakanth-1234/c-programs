@@ -37,3 +37,32 @@ c=(a&b)=(1010 & 0010)=0010
 Decimal value of 0010 is 2.
 
 ---
+
+### 3) Predict the output of the following program.
+```c
+#include <stdio.h>
+#define MOBILE 0x01
+#define LAPPY 0x02
+int main()
+{
+ unsigned char item=0x00;
+ item |=MOBILE;
+2
+ item |=LAPPY;
+ printf("I have purchased ...:");
+ if(item & MOBILE){
+ printf("Mobile, ");
+ }
+if(item & LAPPY){
+ printf("Lappy");
+ }
+ return 1;
+}
+```
+ 1. I have purchased ...:
+ 2. I have purchased ...:Mobile, Lappy
+ 3. I have purchased ...:Mobile,
+ 4. I have purchased ...:Lappy
+
+Output: 3.I have purchased ...:Mobile, Lappy
+---
