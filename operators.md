@@ -5,7 +5,7 @@
 3. `<<`
 4. `&&`
 
-✅ Answer: 4.`&&`
+✅ Answer: `&&`
 
 📝Explanation: && is a Logical AND operator ,not a bitwise.
 
@@ -64,6 +64,27 @@ if(item & LAPPY){
  3. I have purchased ...:Mobile,
  4. I have purchased ...:Lappy
 
-Output: 3.I have purchased ...:Mobile, Lappy
+Output: I have purchased ...:Mobile, Lappy
 
 ---
+
+### 4) Predict the output of the following program.
+```c
+#include <stdio.h>
+int main()
+{
+ char var=0x04;
+ var = var | 0x04;
+ printf("%d,",var);
+ var |= 0x01;
+ printf("%d",var);
+
+ return 0;
+}
+```
+1. 8,9
+2. 4,5
+3. 8,8
+4. 4,4
+
+Output: 4,5
