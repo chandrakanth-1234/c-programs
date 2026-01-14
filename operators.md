@@ -25,3 +25,13 @@ int main()
 }
 ```
 ✅ Output: 2
+
+Explanation: 
+
+a=10->Binary:1010
+
+b=2->Binary:0010
+
+c=(a&b)=(1010 & 0010)=0010 ->decimal value of 0010 is 2.
+
+---
