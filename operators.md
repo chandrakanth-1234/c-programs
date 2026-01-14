@@ -1,7 +1,14 @@
-1) Which is not a bitwise operator?
-   1. &
-   2. |
-   3. <<
-   4. &&
-Answer:Option 4
-Reason: &&(Logical AND)-It is a Logical operator.  
+## Question 1
+**Which is not a bitwise operator?**
+
+1. `&`
+2. `|`
+3. `<<`
+4. `&&`
+---
+### ✅ Answer
+**4. `&&`**
+---
+### 📝 Explanation
+&& is a Logical AND operator ,not a bitwise.
+---
