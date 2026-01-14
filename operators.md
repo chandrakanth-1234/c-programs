@@ -26,7 +26,7 @@ int main()
 ```
 ✅ Output: 2
 
-### 📝Explanation: 
+📝Explanation: 
 
 a=10->Binary:1010
 
@@ -65,4 +65,5 @@ if(item & LAPPY){
  4. I have purchased ...:Lappy
 
 Output: 3.I have purchased ...:Mobile, Lappy
+
 ---
