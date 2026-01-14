@@ -217,3 +217,31 @@ A number is ODD if Least Significant Bit is '1'.
 A number is EVEN if Least Significant Bit is '0'.
 
 ---
+
+ ### 9)Which statement is suitable to check 3rd (count from 0) bit is high (set) or not?
+ 1. (num & (1<<3))
+ 2. (num & 0x08)
+ 3. (num & 0x03)
+ 4. Both (1) and (2)
+
+Output:Both (1) and (2)
+
+---
+
+### 10) Left shift (<<) and Right shift (>>) operators are equivalent to _____________ by 2.
+ Choose the correct words...
+ 1. Multiplication and Division
+ 2. Division and Multiplication
+ 3. Multiplication and Remainder
+ 4. Remainder and Multiplication
+
+Output: Multiplication and Division
+
+Explanation:
+
+Left shift(<<): Each left shift multiplies the number by 2
+
+Right shift(>>): Each right shift divides the number by 2
+
+---
+
