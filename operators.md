@@ -245,3 +245,65 @@ Right shift(>>): Each right shift divides the number by 2
 
 ---
 
+### 11) What will be the output of the following program ?
+```
+#include <stdio.h>
+void main()
+{
+ printf("value is = %d",(10++));
+}
+```
+ 1. 10
+ 2. 11
+ 3. 0
+ 4. ERROR
+
+Output:ERROR
+
+Explanation:
+
+10 is constant
+
+Increment(++) Operator is only applied to variables,not constants.
+
+---
+
+### 12) What will be the output of the following program ?
+```c
+#include <stdio.h>
+void main()
+{
+ const char var='A';
+ ++var;
+ printf("%c",var);
+}
+```
+ 1. B
+ 2. A
+ 3. ERROR
+ 4. 66
+
+Output:ERROR
+
+Explanation:
+
+Variable is declared as constant so increment is not possible.
+
+---
+
+### 13) What will be the output of the following program ?
+```c
+#include <stdio.h>
+void main()
+{
+ int x=10;
+ x+=(x++)+(++x)+x;
+ printf("%d",x);
+}
+```
+ 1. 44
+ 2. 45
+ 3. 46
+ 4. 47
+
+Output:
