@@ -82,6 +82,7 @@ item&Mobile->True=prints Mobile
 item&Lappy->True=prints Lappy
 
 I have purchased ...:Mobile,Lappy
+
 ---
 
 ### 4) Predict the output of the following program.
@@ -114,3 +115,36 @@ var=var|0x04=>0100|0100=>0100->Decimal=4
 var|=0x01=>var|0x01=>0100|0001=>0101->Decimal=5
 
 so 4,5
+
+---
+
+###5) Predict the output of the following program.
+```c
+#include <stdio.h>
+int main()
+{
+ char flag=0x0f;
+ flag &= ~0x02;
+ printf("%d",flag);
+ return 0;
+}
+```
+ 1. 13
+ 2. d
+ 3. 22
+ 4. 1
+
+Output: 13
+
+Explanation:
+
+flag=0x0f=1111->Decimal=15
+
+~0x02=>~(0010)=>1101
+
+flag&=0x02=>1111&1101=>1101
+
+Decimal value of 1101 is 13.
+
+---
+
