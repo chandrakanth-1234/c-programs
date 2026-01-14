@@ -118,7 +118,7 @@ so 4,5
 
 ---
 
-###5) Predict the output of the following program.
+### 5) Predict the output of the following program.
 ```c
 #include <stdio.h>
 int main()
@@ -145,6 +145,30 @@ flag=0x0f=1111->Decimal=15
 flag&=~0x02=>1111&1101=>1101
 
 Decimal value of 1101 is 13.
+
+--- 
+
+### 6) Consider the given statement:
+```c
+int x = 10 ^ 2
+```
+What will be the value of x?
+ 1. 5
+ 2. 6
+ 3. 7
+ 4. 8
+
+Output: 8
+
+Explanation:
+
+10->Binary=1010
+
+2->Binary=0010
+
+10^2=>1010^0010=>1010
+
+Decimal value of 1010 is 8
 
 ---
 
