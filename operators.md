@@ -1,5 +1,4 @@
- Question 1
-**Which is not a bitwise operator?**
+**1)Which is not a bitwise operator?**
 
 1. `&`
 2. `|`
