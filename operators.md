@@ -12,6 +12,7 @@
 ---
 
 ### 2) Predict the output of the following program.
+```c
 #include <stdio.h>
 int main()
 {
@@ -22,5 +23,5 @@ int main()
  printf("c= %d",c);
  return 0;
 }
-
+```
 ✅ Output: 2
