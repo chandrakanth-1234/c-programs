@@ -5,8 +5,7 @@
 3. `<<`
 4. `&&`
 
-✅ Answer:4.`&&`
+✅ Answer: 4.`&&`
 
-### 📝 Explanation
-&& is a Logical AND operator ,not a bitwise.
+📝 Explanation: && is a Logical AND operator ,not a bitwise.
 ---
