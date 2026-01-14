@@ -81,6 +81,7 @@ item&Mobile->True=prints Mobile
 
 item&Lappy->True=prints Lappy
 
+I have purchased ...:Mobile,Lappy
 ---
 
 ### 4) Predict the output of the following program.
@@ -103,3 +104,13 @@ int main()
 4. 4,4
 
 Output: 4,5
+
+Explanation:
+
+var=0x04->0100->Decimal=4
+
+var=var|0x04=>0100|0100=>0100->Decimal=4
+
+var|=0x01=>var|0x01=>0100|0001=>0101->Decimal=5
+
+so 4,5
