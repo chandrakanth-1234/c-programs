@@ -201,3 +201,19 @@ x&=~2=>x&~2=>1010&1101=>1000
 Decimal value of 1000 is 8
 
 ---
+
+### 8) Which Bitwise Operator can be used to check whether a number is EVEN or ODD quickly?
+ 1. Bitwise AND (&)
+ 2. Bitwise OR (|)
+ 3. Bitwise XOR (^)
+ 4. Bitwise NOT (~)
+
+Output:Bitwise AND
+
+Explanation:
+
+A number is ODD if Least Significant Bit is '1'.
+
+A number is EVEN if Least Significant Bit is '0'.
+
+---
