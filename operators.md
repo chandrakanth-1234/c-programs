@@ -26,7 +26,7 @@ int main()
 ```
 ✅ Output: 2
 
-Explanation: 
+### 📝Explanation: 
 
 a=10->Binary:1010
 
