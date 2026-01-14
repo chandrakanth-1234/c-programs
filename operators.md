@@ -47,13 +47,12 @@ int main()
 {
  unsigned char item=0x00;
  item |=MOBILE;
-2
  item |=LAPPY;
  printf("I have purchased ...:");
  if(item & MOBILE){
  printf("Mobile, ");
  }
-if(item & LAPPY){
+ if(item & LAPPY){
  printf("Lappy");
  }
  return 1;
@@ -65,6 +64,22 @@ if(item & LAPPY){
  4. I have purchased ...:Lappy
 
 Output: I have purchased ...:Mobile, Lappy
+
+Explanation:
+
+Mobile=0x01->Binary:0001
+
+Lappy=0x02->Binary:0010
+
+item=0x00->Binary:0000
+
+item|=Mobile->0001
+
+item|=Lappy->0011
+
+item&Mobile->True=prints Mobile
+
+item&Lappy->True=prints Lappy
 
 ---
 
